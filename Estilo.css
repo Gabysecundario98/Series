@@ -1,1 +1,24 @@
-.Tabla{ border: 5; border-color: black;}
+table{ border: 5px solid black; border-color: black; border-collapse: collapse ;}
+body {color: rgb(1, 14, 9);}
+body{background-color: blueviolet;}
+
+#lista1 {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:13px;
+	border: 2 px solid;}
+
+#lista1 li {
+	display:inline;
+	margin-left:3px;
+	margin-right:3px;
+    border: 2px chocolate;
+    color: yellow;
+}
+#ol1 {color: yellow;}
+h1 {color: yellow;}
+footer{ width: 200px; 
+        margin:auto;
+        background-color: blue;
+    }
+h2{color:yellow}
