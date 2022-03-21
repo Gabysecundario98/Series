@@ -1,11 +1,11 @@
 :root {
-	--rojo: #E50914;
+	--amarillo: #c4b357;
 	--fondo: #ab7bb8; 
 }
 
 * {
-	margin: 0;
-	padding: 0;
+	margin: 3;
+	padding: 3;
 	box-sizing: border-box;
 }
 
@@ -14,36 +14,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.contenedor {
-	width: 90%;
-	margin: auto;
-}
-
-header {
-	padding: 30px 0;
-}
-
-header .contenedor {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-header .logotipo {
-	font-family: 'Bebas Neue', cursive;
-	font-weight: normal;
-	color: var(--rojo);
-	font-size: 40px;
-}
-
-header nav a {
-	color: #AAA;
-	text-decoration: none;
-	margin-right: 20px;
-}
-
-header nav a:hover,
-header nav a.activo {
-	color: #FFF;
-}
-
+.logotipo {text-align-last: center;}
+.bienvenida {color: var(--amarillo); text-align: center;}
+.lista1 {background-color: var(--amarillo); align-items: center; text-align: center; align-content: center;}
+.descripción {color: rgb(0, 0, 0);text-align: center; text-decoration-line: var(--amarillo);}
